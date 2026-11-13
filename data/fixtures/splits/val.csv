@@ -1,0 +1,26 @@
+id,texto_consulta,rol_empleado,hora_consulta,producto_mencionado,longitud_consulta,intencion
+97,ya llego el pedido de hoy,vendedor,tarde,,6,otra
+146,queda stock de jarabe para la tos,vendedor,manana,jarabe para la tos,7,consulta_stock
+88,cuanto cuesta el amoxicilina,inventario,tarde,amoxicilina,4,consulta_precio
+112,ultima venta de jarabe para la tos,inventario,manana,jarabe para la tos,7,consulta_ultima_venta
+200,cuanto enalapril tenemos,vendedor,tarde,enalapril,3,consulta_stock
+159,ultima venta de loratadina,inventario,manana,loratadina,4,consulta_ultima_venta
+90,que precio tiene jarabe para la tos,inventario,manana,jarabe para la tos,7,consulta_precio
+32,fijate si hay paracetamol por favor,vendedor,manana,paracetamol,6,consulta_stock
+5,cuanto hay de omeprazol,vendedor,tarde,omeprazol,4,consulta_stock
+74,hace cuanto no vendemos losartan,vendedor,tarde,losartan,5,consulta_ultima_venta
+165,cuando fue la ultima vez que vendimos azitromicina,vendedor,manana,azitromicina,8,consulta_ultima_venta
+59,me podes ayudar tantito,inventario,tarde,,4,otra
+79,cuanto cuesta el naproxeno,vendedor,tarde,naproxeno,4,consulta_precio
+36,que precio tiene buscapina,vendedor,manana,buscapina,4,consulta_precio
+134,cuanto alcohol en gel tenemos,inventario,tarde,alcohol en gel,5,consulta_stock
+168,fijate si hay acetaminofen por favor,vendedor,tarde,acetaminofen,6,consulta_stock
+11,cuanto hay de losartan,vendedor,manana,losartan,4,consulta_stock
+40,a como esta el suero oral,vendedor,manana,suero oral,6,consulta_precio
+92,cuanto hay de jarabe para la tos,vendedor,manana,jarabe para la tos,7,consulta_stock
+164,el buscapina en cuanto esta,vendedor,tarde,buscapina,5,consulta_precio
+7,ultima venta de dexametasona,inventario,tarde,dexametasona,4,consulta_ultima_venta
+96,fijate si hay clorfenamina por favor,vendedor,manana,clorfenamina,6,consulta_stock
+20,a quien le vendimos acetaminofen ultimo,vendedor,manana,acetaminofen,6,consulta_ultima_venta
+167,tenemos diclofenac todavia,inventario,manana,diclofenac,3,consulta_stock
+151,cuanto vale aspirina,inventario,manana,aspirina,3,consulta_precio

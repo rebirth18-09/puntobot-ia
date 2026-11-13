@@ -1,0 +1,8 @@
+{
+  "origen": "Particiones sintéticas de la etapa 3, preservadas sin cambios",
+  "sha256": {
+    "train.csv": "df73dee22447171fac5be3a7418c2e9dbb17d436a2d7b8c80fcd39d48065c59a",
+    "val.csv": "c05c27cb5c532252831b146cf73d5d7aceca01a30c9b7c1938d05ccf3ebb562d",
+    "test.csv": "03d18e17843b3c9fb80e68e13a25e006549b558f8a4c085a475e1c791b49af19"
+  }
+}

@@ -1,0 +1,26 @@
+id,texto_consulta,rol_empleado,hora_consulta,producto_mencionado,longitud_consulta,intencion
+16,me da un minuto,inventario,manana,,4,otra
+123,a que precio anda el naproxeno,inventario,tarde,naproxeno,6,consulta_precio
+160,cuanto cuesta el enalapril,vendedor,manana,enalapril,4,consulta_precio
+122,hay aspirina en bodega,inventario,manana,aspirina,4,consulta_stock
+70,cuando fue la ultima vez que vendimos ibuprofeno,inventario,tarde,ibuprofeno,8,consulta_ultima_venta
+81,el amoxicilina en cuanto esta,inventario,manana,amoxicilina,5,consulta_precio
+126,cuando salio la ultima diclofenac,vendedor,manana,diclofenac,5,consulta_ultima_venta
+12,a quien le vendimos suero oral ultimo,vendedor,tarde,suero oral,7,consulta_ultima_venta
+196,revisame las existencias de losartan,vendedor,tarde,losartan,5,consulta_stock
+138,cuando se vendio losartan por ultima vez,vendedor,manana,losartan,7,consulta_ultima_venta
+201,cuanto le cobro por azitromicina,vendedor,tarde,azitromicina,5,consulta_precio
+17,revisame las existencias de enalapril,inventario,manana,enalapril,5,consulta_stock
+18,cuanto buscapina tenemos,vendedor,manana,buscapina,3,consulta_stock
+143,eso ya lo revise,inventario,manana,,4,otra
+189,cuanto cuesta el loratadina,vendedor,manana,loratadina,4,consulta_precio
+115,hace cuanto no vendemos enalapril,inventario,tarde,enalapril,5,consulta_ultima_venta
+103,cuanto clorfenamina tenemos,vendedor,manana,clorfenamina,3,consulta_stock
+181,hay eso,vendedor,tarde,,2,consulta_stock
+44,queda stock de omeprazol,inventario,tarde,omeprazol,4,consulta_stock
+2,revisame las existencias de ibuprofeno,vendedor,tarde,ibuprofeno,5,consulta_stock
+22,cuanto cuesta el ibuprofeno,inventario,manana,ibuprofeno,4,consulta_precio
+109,revisame las existencias de clorfenamina,vendedor,tarde,clorfenamina,5,consulta_stock
+47,que precio tiene naproxeno,vendedor,tarde,naproxeno,4,consulta_precio
+15,fijate eso,inventario,manana,,2,consulta_stock
+118,cuanto hay de loratadina,inventario,manana,loratadina,4,consulta_stock

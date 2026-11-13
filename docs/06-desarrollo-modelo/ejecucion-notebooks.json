@@ -1,0 +1,200 @@
+{
+  "06-1-puente-keras.ipynb": {
+    "ejecutado_en": "2026-11-01T01:09:52.035923-06:00",
+    "sha256_fuente": "92dcfa1611541f8243aedb03f4691e35e2019068bf6e664ec1f1d972cdb7562c",
+    "normalizacion_hash": "LF",
+    "celdas_ejecutadas": 7,
+    "sin_errores": true,
+    "resultados": {
+      "keras": {
+        "accuracy": 0.9200000166893005,
+        "loss": 0.2302325963973999
+      },
+      "keras_f1_macro": 0.8747086247086246,
+      "baseline_accuracy": 0.4,
+      "baseline_f1_macro": 0.14285714285714285
+    }
+  },
+  "06-2-modelo-puntobot.ipynb": {
+    "ejecutado_en": "2026-11-01T01:09:58.341634-06:00",
+    "sha256_fuente": "5eed1ce78155f5bc9a6faa19bdc26bd6025b6614c7f1efdc3f5b31ec8a500c28",
+    "normalizacion_hash": "LF",
+    "celdas_ejecutadas": 3,
+    "sin_errores": true,
+    "resultados": {
+      "salida": [
+        4,
+        4
+      ],
+      "caracteristicas": 1675,
+      "coeficientes": [
+        4,
+        1675
+      ],
+      "parametros": 6704,
+      "pesos_solo_train": {
+        "consulta_stock": 0.5918367346938775,
+        "consulta_precio": 0.8787878787878788,
+        "consulta_ultima_venta": 1.2083333333333333,
+        "otra": 2.9
+      },
+      "modelo_original_sin_ajustar": true,
+      "probabilidades_validas": true,
+      "prueba_sin_evaluar": true
+    }
+  },
+  "06-3-verificaciones.ipynb": {
+    "ejecutado_en": "2026-11-01T01:10:13.148248-06:00",
+    "sha256_fuente": "0d00dc07403f7588dfbdf81e324ee122ff6aff10146a793a00582f88a126af36",
+    "normalizacion_hash": "LF",
+    "celdas_ejecutadas": 3,
+    "sin_errores": true,
+    "resultados": {
+      "fecha": "2026-11-01",
+      "ejecutado_en": "2026-11-01T01:10:03.739621-06:00",
+      "zona_horaria": "America/Managua",
+      "fuente": "lote sintetico suministrado",
+      "semilla": 42,
+      "python": "3.12.14",
+      "versiones": {
+        "numpy": "2.2.6",
+        "pandas": "2.3.3",
+        "scikit-learn": "1.7.2",
+        "scipy": "1.16.2",
+        "joblib": "1.5.2",
+        "PyYAML": "6.0.2"
+      },
+      "filas": {
+        "entrenamiento": 116,
+        "validacion": 25,
+        "prueba_sellada": 25
+      },
+      "conteos": {
+        "entrenamiento": {
+          "consulta_stock": 49,
+          "consulta_precio": 33,
+          "consulta_ultima_venta": 24,
+          "otra": 10
+        },
+        "validacion": {
+          "consulta_stock": 10,
+          "consulta_precio": 7,
+          "consulta_ultima_venta": 6,
+          "otra": 2
+        }
+      },
+      "auditoria": {
+        "filas_prueba": 25,
+        "solapamiento_ids": 0,
+        "solapamiento_textos": 0,
+        "sha256": {
+          "train.csv": "df73dee22447171fac5be3a7418c2e9dbb17d436a2d7b8c80fcd39d48065c59a",
+          "val.csv": "c05c27cb5c532252831b146cf73d5d7aceca01a30c9b7c1938d05ccf3ebb562d",
+          "test.csv": "03d18e17843b3c9fb80e68e13a25e006549b558f8a4c085a475e1c791b49af19"
+        }
+      },
+      "pesos_solo_entrenamiento": {
+        "consulta_stock": 0.5918367346938775,
+        "consulta_precio": 0.8787878787878788,
+        "consulta_ultima_venta": 1.2083333333333333,
+        "otra": 2.9
+      },
+      "formas": {
+        "train": [
+          116,
+          1675
+        ],
+        "val": [
+          25,
+          1675
+        ]
+      },
+      "rango_tfidf_no_cero": [
+        0.05123035219675935,
+        1.0
+      ],
+      "diferencia_pipeline_inferencia": 0.0,
+      "baseline": {
+        "clase": "consulta_stock",
+        "accuracy": 0.4,
+        "f1_macro": 0.14285714285714285
+      },
+      "clasificador_verificacion": {
+        "accuracy": 0.96,
+        "f1_macro": 0.9701754385964912,
+        "por_clase": {
+          "consulta_stock": {
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1-score": 0.9473684210526315,
+            "support": 10.0
+          },
+          "consulta_precio": {
+            "precision": 0.875,
+            "recall": 1.0,
+            "f1-score": 0.9333333333333333,
+            "support": 7.0
+          },
+          "consulta_ultima_venta": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 6.0
+          },
+          "otra": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 2.0
+          },
+          "accuracy": 0.96,
+          "macro avg": {
+            "precision": 0.96875,
+            "recall": 0.975,
+            "f1-score": 0.9701754385964912,
+            "support": 25.0
+          },
+          "weighted avg": {
+            "precision": 0.965,
+            "recall": 0.96,
+            "f1-score": 0.9602807017543858,
+            "support": 25.0
+          }
+        }
+      },
+      "contrato_ejemplo": {
+        "modelo_version": "tfidf-lr-v0.6-verificacion",
+        "probabilidades": {
+          "consulta_precio": 0.27988620010371446,
+          "consulta_stock": 0.2691438612975356,
+          "consulta_ultima_venta": 0.09394326031275624,
+          "otra": 0.3570266782859937
+        },
+        "producto_texto": null,
+        "candidatos": []
+      },
+      "checks": {
+        "particiones_sin_solapamiento": true,
+        "fit_solo_train": true,
+        "probabilidades_validas": true,
+        "contrato_json": true,
+        "entradas_invalidas": true,
+        "serializacion": true
+      },
+      "keras": {
+        "tensorflow": "2.20.0",
+        "keras": "3.11.3",
+        "forma_lote": [
+          32,
+          1675
+        ],
+        "parametros": 26988,
+        "ln_k": 1.3862943611198906,
+        "perdida_inicial": 1.3841086626052856,
+        "perdida_final": 3.958259549108334e-05,
+        "accuracy_final": 1.0,
+        "epocas": 250
+      }
+    }
+  }
+}

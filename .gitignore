@@ -1,0 +1,43 @@
+# Credenciales y entorno
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*.zip
+*.bundle
+.codex/
+node_modules/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Datos reales y artefactos entrenados
+data/*
+!data/.gitkeep
+!data/README.md
+!data/fixtures/
+data/fixtures/*
+!data/fixtures/manifest.json
+!data/fixtures/splits/
+data/fixtures/splits/*
+!data/fixtures/splits/train.csv
+!data/fixtures/splits/val.csv
+!data/fixtures/splits/test.csv
+*.jpg
+*.jpeg
+*.png
+*.joblib
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.keras
+*.h5
+artifacts/
+runtime/
+# data/fixtures contiene únicamente las particiones sintéticas suministradas

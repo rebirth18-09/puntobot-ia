@@ -1,0 +1,101 @@
+{
+  "proyecto": "PuntoBot",
+  "version": "tfidf-lr-v0.7",
+  "clases": [
+    "consulta_stock",
+    "consulta_precio",
+    "consulta_ultima_venta",
+    "otra"
+  ],
+  "datos": {
+    "directorio": "data/fixtures/splits",
+    "origen": "sintetico",
+    "columna_texto": "texto_consulta",
+    "columna_clase": "intencion",
+    "columna_id": "id",
+    "columna_producto": "producto_mencionado"
+  },
+  "modelo": {
+    "familia": "tfidf_regresion_logistica",
+    "ngramas_palabras": [
+      1,
+      2
+    ],
+    "ngramas_caracteres": [
+      3,
+      5
+    ],
+    "max_features": 3000,
+    "C": 1,
+    "max_iter": 1000,
+    "class_weight": "balanced"
+  },
+  "puente_keras": {
+    "neuronas_ocultas": [
+      16,
+      8
+    ]
+  },
+  "entrenamiento": {
+    "semilla": 42,
+    "tamano_lote": 32,
+    "epocas_puente": 50,
+    "learning_rate": 0.001,
+    "learning_rate_sobreajuste": 0.01,
+    "epocas_sobreajuste": 250
+  },
+  "ajuste_fino": {
+    "experimentos": [
+      {
+        "id": "E1",
+        "C": 1,
+        "class_weight": "balanced"
+      },
+      {
+        "id": "E2",
+        "C": 0.25,
+        "class_weight": "balanced"
+      },
+      {
+        "id": "E3",
+        "C": 4,
+        "class_weight": "balanced"
+      },
+      {
+        "id": "E4",
+        "C": 1,
+        "class_weight": null
+      }
+    ],
+    "fracciones_curva": [
+      0.25,
+      0.5,
+      0.75,
+      1
+    ]
+  },
+  "decision": {
+    "umbrales_intencion": [
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8
+    ],
+    "umbrales_producto": [
+      0.7,
+      0.8,
+      0.9
+    ],
+    "referencia_intencion": 0.6,
+    "referencia_producto": 0.8,
+    "sondeos": [
+      "cuanto cuesta el viaje a managua",
+      "cual es la capital de francia",
+      "que tal buenas tardes",
+      "hay paracetaml disponible",
+      "cuando vendieron por ultima vez el ibuprofeno",
+      "cuanto cuesta y cuanto queda de paracetamol"
+    ]
+  }
+}

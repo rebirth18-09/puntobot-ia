@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Las particiones conservan los saltos de línea del manifiesto.
+data/fixtures/splits/*.csv text eol=lf

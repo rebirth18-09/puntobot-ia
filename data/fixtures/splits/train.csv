@@ -1,0 +1,117 @@
+id,texto_consulta,rol_empleado,hora_consulta,producto_mencionado,longitud_consulta,intencion
+9,a que precio anda el complejo b,vendedor,manana,complejo b,7,consulta_precio
+69,fijate si hay gasas esteriles por favor,vendedor,tarde,gasas esteriles,7,consulta_stock
+180,cuanto le cobro por gasas esteriles,vendedor,tarde,gasas esteriles,6,consulta_precio
+54,revisame las existencias de acetaminofen,vendedor,manana,acetaminofen,5,consulta_stock
+80,a como esta el alcohol en gel,inventario,manana,alcohol en gel,7,consulta_precio
+56,cuanto vale suero oral,vendedor,tarde,suero oral,4,consulta_precio
+129,cuando se vendio metformina por ultima vez,vendedor,manana,metformina,7,consulta_ultima_venta
+190,a eso,inventario,tarde,,2,consulta_precio
+4,hay gasas esteriles en bodega,inventario,manana,gasas esteriles,5,consulta_stock
+147,a como esta el dexametasona,inventario,manana,dexametasona,5,consulta_precio
+45,fijate si hay naproxeno por favor,vendedor,manana,naproxeno,6,consulta_stock
+33,a que precio anda el gasas esteriles,inventario,manana,gasas esteriles,7,consulta_precio
+31,hay disponible omeprazol,vendedor,tarde,omeprazol,3,consulta_stock
+172,hace cuanto no vendemos dexametasona,vendedor,manana,dexametasona,5,consulta_ultima_venta
+116,fijate si hay enalapril por favor,vendedor,manana,enalapril,6,consulta_stock
+105,a quien le vendimos loratadina ultimo,inventario,manana,loratadina,6,consulta_ultima_venta
+158,fijate si hay curitas por favor,inventario,tarde,curitas,6,consulta_stock
+65,revisame las existencias de loratadina,vendedor,manana,loratadina,5,consulta_stock
+98,hace cuanto no vendemos azitromicina,vendedor,manana,azitromicina,5,consulta_ultima_venta
+162,nos queda loratadina o ya se acabo,vendedor,tarde,loratadina,7,consulta_stock
+119,fijate si hay aspirina por favor,vendedor,tarde,aspirina,6,consulta_stock
+161,nos queda paracetamol o ya se acabo,inventario,tarde,paracetamol,7,consulta_stock
+102,hay disponible losartan,inventario,manana,losartan,3,consulta_stock
+141,fijate si hay buscapina por favor,vendedor,tarde,buscapina,6,consulta_stock
+39,a quien le vendimos jarabe para la tos ultimo,vendedor,tarde,jarabe para la tos,9,consulta_ultima_venta
+24,fijate si hay loratadina por favor,inventario,manana,loratadina,6,consulta_stock
+8,cuando fue la ultima vez que vendimos enalapril,vendedor,tarde,enalapril,8,consulta_ultima_venta
+6,me queda paracetamol,inventario,manana,paracetamol,3,consulta_stock
+110,que precio tiene gasas esteriles,vendedor,tarde,gasas esteriles,5,consulta_precio
+150,precio de vitamina c,vendedor,tarde,vitamina c,4,consulta_precio
+140,el ranitidina en cuanto esta,vendedor,tarde,ranitidina,5,consulta_precio
+58,cuando salio la ultima acetaminofen,inventario,manana,acetaminofen,5,consulta_ultima_venta
+3,a que precio anda el buscapina,inventario,manana,buscapina,6,consulta_precio
+30,cuanto le cobro por clorfenamina,vendedor,manana,clorfenamina,5,consulta_precio
+176,cuanto hay de buscapina,inventario,tarde,buscapina,4,consulta_stock
+19,queda stock de clorfenamina,inventario,tarde,clorfenamina,4,consulta_stock
+191,el aspirina en cuanto esta,vendedor,tarde,aspirina,5,consulta_precio
+82,hay disponible buscapina,inventario,manana,buscapina,3,consulta_stock
+43,cuanto le cobro por naproxeno,vendedor,manana,naproxeno,5,consulta_precio
+61,cuanto eso,vendedor,manana,,2,consulta_stock
+89,cuanto hay de amoxicilina,inventario,manana,amoxicilina,4,consulta_stock
+78,hay jarabe para la tos en bodega,inventario,tarde,jarabe para la tos,7,consulta_stock
+35,hay metformina en bodega,vendedor,manana,metformina,4,consulta_stock
+135,a que precio anda el acetaminofen,vendedor,tarde,acetaminofen,6,consulta_precio
+14,quien es el encargado ahorita,vendedor,manana,,5,otra
+99,nos queda dexametasona o ya se acabo,inventario,tarde,dexametasona,7,consulta_stock
+38,precio de losartan,vendedor,tarde,losartan,3,consulta_precio
+184,cuanto hay de enalapril,vendedor,tarde,enalapril,4,consulta_stock
+41,cuanto le cobro por metformina,vendedor,manana,metformina,5,consulta_precio
+10,se corto la luz otra vez,vendedor,tarde,,6,otra
+178,cuando fue la ultima vez que vendimos complejo b,vendedor,tarde,complejo b,9,consulta_ultima_venta
+106,a quien le vendimos curitas ultimo,vendedor,tarde,curitas,6,consulta_ultima_venta
+85,precio de omeprazol,vendedor,tarde,omeprazol,3,consulta_precio
+46,a que precio anda el jarabe para la tos,vendedor,tarde,jarabe para la tos,9,consulta_precio
+49,queda stock de aspirina,vendedor,manana,aspirina,4,consulta_stock
+37,cuanto le cobro por buscapina,vendedor,tarde,buscapina,5,consulta_precio
+125,el sales de rehidratacion en cuanto esta,inventario,manana,sales de rehidratacion,7,consulta_precio
+155,que precio tiene loratadina,vendedor,manana,loratadina,4,consulta_precio
+48,cuanto suero oral tenemos,vendedor,manana,suero oral,4,consulta_stock
+86,cuando salio la ultima enalapril,inventario,manana,enalapril,5,consulta_ultima_venta
+104,que precio tiene acetaminofen,vendedor,manana,acetaminofen,4,consulta_precio
+182,cuando salio la ultima suero oral,vendedor,manana,suero oral,6,consulta_ultima_venta
+148,revisame las existencias de diclofenac,inventario,tarde,diclofenac,5,consulta_stock
+64,hay clorfenamina en bodega,vendedor,tarde,clorfenamina,4,consulta_stock
+77,precio de dexametasona,vendedor,tarde,dexametasona,3,consulta_precio
+75,hay disponible complejo b,vendedor,manana,complejo b,4,consulta_stock
+174,queda stock de suero oral,vendedor,manana,suero oral,5,consulta_stock
+50,nos queda sales de rehidratacion o ya se acabo,inventario,manana,sales de rehidratacion,9,consulta_stock
+170,tenemos dexametasona todavia,inventario,manana,dexametasona,3,consulta_stock
+136,cuando fue la ultima vez que vendimos loratadina,vendedor,manana,loratadina,8,consulta_ultima_venta
+188,a quien le vendimos omeprazol ultimo,vendedor,manana,omeprazol,6,consulta_ultima_venta
+111,cuando fue la ultima vez que vendimos diclofenac,inventario,tarde,diclofenac,8,consulta_ultima_venta
+149,hay disponible ranitidina,inventario,tarde,ranitidina,3,consulta_stock
+173,hay omeprazol en bodega,vendedor,manana,omeprazol,4,consulta_stock
+55,precio de clorfenamina,inventario,tarde,clorfenamina,3,consulta_precio
+101,necesito el numero del proveedor,inventario,tarde,,5,otra
+127,nos queda azitromicina o ya se acabo,vendedor,tarde,azitromicina,7,consulta_stock
+13,hace cuanto no vendemos clorfenamina,vendedor,tarde,clorfenamina,5,consulta_ultima_venta
+21,a quien le vendimos buscapina ultimo,vendedor,tarde,buscapina,6,consulta_ultima_venta
+114,vas a almorzar ahorita,vendedor,manana,,4,otra
+1,revisame las existencias de dexametasona,vendedor,manana,dexametasona,5,consulta_stock
+163,a quien le vendimos paracetamol ultimo,vendedor,manana,paracetamol,6,consulta_ultima_venta
+169,cuanto le cobro por alcohol en gel,vendedor,manana,alcohol en gel,7,consulta_precio
+128,tenemos eso,vendedor,manana,,2,consulta_stock
+25,el clorfenamina en cuanto esta,inventario,tarde,clorfenamina,5,consulta_precio
+57,llamo alguien preguntando por vos,inventario,manana,,5,otra
+84,revisame las existencias de buscapina,vendedor,manana,buscapina,5,consulta_stock
+51,cuando se vendio gasas esteriles por ultima vez,vendedor,tarde,gasas esteriles,8,consulta_ultima_venta
+26,me queda enalapril,vendedor,manana,enalapril,3,consulta_stock
+107,hace cuanto no vendemos vitamina c,inventario,tarde,vitamina c,6,consulta_ultima_venta
+187,a que precio anda el metformina,vendedor,tarde,metformina,6,consulta_precio
+185,hay azitromicina en bodega,inventario,tarde,azitromicina,4,consulta_stock
+68,hay ranitidina en bodega,vendedor,manana,ranitidina,4,consulta_stock
+199,precio de azitromicina,inventario,tarde,azitromicina,3,consulta_precio
+72,tenemos jarabe para la tos todavia,vendedor,tarde,jarabe para la tos,6,consulta_stock
+100,revisame las existencias de complejo b,inventario,manana,complejo b,6,consulta_stock
+197,buenos dias,vendedor,tarde,,2,otra
+139,nos queda suero oral o ya se acabo,vendedor,tarde,suero oral,8,consulta_stock
+145,quedo pendiente lo de ayer,vendedor,manana,,5,otra
+28,a que precio anda el ibuprofeno,vendedor,manana,ibuprofeno,6,consulta_precio
+124,ya paso el que cobra el alquiler,inventario,manana,,7,otra
+34,tenemos curitas todavia,vendedor,manana,curitas,3,consulta_stock
+108,fijate si hay vitamina c por favor,inventario,manana,vitamina c,7,consulta_stock
+183,ocupo que me ayudes con una caja,vendedor,manana,,7,otra
+117,a que precio anda el loratadina,inventario,manana,loratadina,6,consulta_precio
+144,ultima venta de metformina,inventario,manana,metformina,4,consulta_ultima_venta
+91,revisame las existencias de azitromicina,inventario,tarde,azitromicina,5,consulta_stock
+42,alguien ha visto mi lapicero,vendedor,manana,,5,otra
+131,a como esta el jarabe para la tos,inventario,tarde,jarabe para la tos,8,consulta_precio
+120,el dexametasona en cuanto esta,vendedor,manana,dexametasona,5,consulta_precio
+62,ultima venta de azitromicina,inventario,manana,azitromicina,4,consulta_ultima_venta
+121,tenemos paracetamol todavia,vendedor,tarde,paracetamol,3,consulta_stock
+27,a quien le vendimos dexametasona ultimo,inventario,manana,dexametasona,6,consulta_ultima_venta
+29,a quien le vendimos aspirina ultimo,inventario,tarde,aspirina,6,consulta_ultima_venta
+52,hace cuanto no vendemos sales de rehidratacion,inventario,manana,sales de rehidratacion,7,consulta_ultima_venta
+157,queda stock de losartan,vendedor,tarde,losartan,4,consulta_stock

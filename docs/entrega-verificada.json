@@ -1,0 +1,41 @@
+{
+  "ejecutado_en": "2026-11-12T18:11:40.092937-06:00",
+  "zona_horaria": "America/Managua",
+  "python": "3.13.4",
+  "versiones": {
+    "numpy": "2.3.0",
+    "pandas": "2.3.0",
+    "scikit-learn": "1.7.0",
+    "scipy": "1.15.3",
+    "joblib": "1.5.1",
+    "PyYAML": "6.0.2"
+  },
+  "pruebas_unittest": {"ejecutadas": 6, "correctas": 6},
+  "verificacion": {
+    "particiones_sin_solapamiento": true,
+    "fit_solo_train": true,
+    "probabilidades_validas": true,
+    "contrato_json": true,
+    "entradas_invalidas": true,
+    "serializacion": true
+  },
+  "particiones": {"entrenamiento": 116, "validacion": 25, "prueba_sellada": 25},
+  "validacion": {
+    "experimento": "E3",
+    "C": 4,
+    "class_weight": "balanced",
+    "exactitud": 1.0,
+    "f1_macro": 1.0,
+    "umbral_intencion": 0.4,
+    "umbral_producto": 0.8
+  },
+  "test_evaluado_en_esta_entrega": false,
+  "notebooks": {
+    "cantidad": 3,
+    "celdas_sin_salidas": true,
+    "sintaxis_python_valida": true,
+    "ejecucion_tensorflow_en_esta_entrega": false
+  },
+  "enlaces_locales_rotos": [],
+  "nota": "Resultados con datos sinteticos; evidencia historica de Keras conservada por separado."
+}
